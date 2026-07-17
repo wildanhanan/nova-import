@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `if0_41597460_fake_store_db`
+-- Database: `fake_store_db`
 --
 
 -- --------------------------------------------------------
