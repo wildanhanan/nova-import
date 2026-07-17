@@ -61,7 +61,7 @@ NovaImport
 ├── assets/
 │   ├── css/
 │   ├── js/
-│   └── images/
+│
 │
 ├── index.php
 ├── products.php
