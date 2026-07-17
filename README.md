@@ -108,18 +108,21 @@ Import file SQL ke MySQL menggunakan phpMyAdmin.
 
 ### 4. Konfigurasi Database
 
-Ubah file
+Repository ini tidak menyertakan file `config.php` karena berisi informasi sensitif seperti host, username, dan password database.
 
-```
-api/config.php
-```
-
-sesuai konfigurasi database Anda.
+Salin file `config.example.php` menjadi `config.php`, kemudian sesuaikan konfigurasi database dengan lingkungan Anda.
 
 Contoh:
 
+```bash
+cp api/config.example.php api/config.php
+```
+
+Selanjutnya ubah isi `api/config.php` menjadi:
+
 ```php
 define('DB_HOST', 'YOUR_DB_HOST');
+define('DB_PORT', 'YOUR_DB_PORT');
 define('DB_NAME', 'YOUR_DB_NAME');
 define('DB_USER', 'YOUR_DB_USER');
 define('DB_PASS', 'YOUR_DB_PASSWORD');
